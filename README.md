@@ -12,9 +12,9 @@ Due to limitations in Amazon LightSail SSH port cannot be changed, however extra
 2. NTP Port ```123```
 3. SSH Port ```22``` and ```2200```
 
+Grader user is created for the project and it is given sudo access.
 To connect to the server with SSH please use the key in project.
-
-Known Issue; Even though, user is created and ssh is allowed. User cannot login for the server. (Expect for the default user: ubuntu)
+Pass: ```183461``` or ```729467```
 
 Currently two application is serving in this IP Address.
 1. [Item Catalog Project](itemcatalog.ernsnl.com)
