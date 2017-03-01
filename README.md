@@ -8,8 +8,9 @@ App is currently serving at IP Address ```50.17.57.209```
 
 Due to limitations in Amazon LightSail SSH port cannot be changed, however extra ssh port is used by configuring sshd_config file. SSH Ports ```22 and 2200```
 
-HTTP Port ```80```
-NTP Port ```123```
+1. HTTP Port ```80```
+2. NTP Port ```123```
+3. SSH Port ```22``` and ```2200```
 
 To connect to the server with SSH please use the key in project.
 
@@ -17,4 +18,4 @@ Known Issue; Even though, user is created and ssh is allowed. User cannot login 
 
 Currently two application is serving in this IP Address.
 1. [Item Catalog Project](itemcatalog.ernsnl.com)
-2. [Secondary App](secondaryapp.ernsnl.com) 
+2. [Secondary App](secondaryapp.ernsnl.com)
